@@ -284,7 +284,9 @@ align-items: center;
     align-items: center;
 }
 
-.networks {}
+.networks {
+    background-color: #404bbf;
+}
 
 .soc-netw {
     width: 40px;
@@ -304,7 +306,7 @@ align-items: center;
     align-items: center;
     justify-items: center;
     fill: #f4f4fd;
-    stroke: ;
+    /*stroke: ;*/
 }
 
 .team-img {
