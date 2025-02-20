@@ -147,6 +147,11 @@ background-color: #404bbf;
 .hero {
     background: #2e2f42;
     padding: 188px 0;
+    max-width: 1440;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero-text {
@@ -158,7 +163,6 @@ background-color: #404bbf;
         color: #fff;
         max-width: 496px;
         margin:0 auto;
-        
         width: 496px;
         word-wrap: break-word;
 }
@@ -205,6 +209,20 @@ background-color: #404bbf;
 .text-items {
     display: flex;
     gap: 24px;
+}
+
+.text-icons {
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-items-list {
@@ -257,6 +275,36 @@ background-color: #404bbf;
 
 .team-item {
 padding: 32px 0;
+align-items: center;
+}
+
+.social {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.networks {}
+
+.soc-netw {
+    width: 40px;
+    height: 40px;
+    /*background-color: #404bbf;*/
+    border-radius: 50%;
+    fill: #4d5ae5;
+}
+
+.soc-netw:hover,
+.soc-netw:focus {
+    fill: #404bbf;
+}
+
+.icon-soc {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    fill: #f4f4fd;
+    stroke: ;
 }
 
 .team-img {
