@@ -373,15 +373,13 @@ align-items: center;
     /*transform: translateY(100%);*/
 }
 
-.portfolio-list-item:hover {
+.portfolio-list-item:hover .txt-block{
 transform: translateY(0%);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.txt-block:hover {
-    transform: translateY(0%);
-}
+
 .txt-block {
     position: absolute;
     top: 0;
