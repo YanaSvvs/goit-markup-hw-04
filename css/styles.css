@@ -362,8 +362,6 @@ align-items: center;
 }
 
 .portfolio-list-item {
-   /* background-color: #FFFFFF;
-    width: calc((100% - 48px) / 3);*/
     position: relative;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -372,7 +370,7 @@ align-items: center;
     position: relative;
     overflow: hidden;
 }
-.portfolio-list-item:hover .text-block {
+.portfolio-list-item:hover {
 transform: translateY(0%);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -467,8 +465,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         display: block;
         width: 264px;
         height: 72px;
-       
+        margin-bottom: 16px;
 }
+
 .ft-sect {
     display: flex;
     max-width: 1158px;
